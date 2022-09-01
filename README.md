@@ -1,4 +1,4 @@
-GitHub Actions deploy Flask to AWS Elastic Beanstalk
+GitHub Actions deploy Flask to AWS Elastic Beanstalk<br>
 Status of Last Deployment:<br>
 <img src="https://github.com/vladelleus/octo/workflows/CI-CD-Pipeline-to-AWS-ElasticBeanstalk/badge.svg?branch=master">
 <br>
