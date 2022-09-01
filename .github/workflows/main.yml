@@ -1,9 +1,9 @@
 
 name: CI-CD-Pipeline-to-AWS-ElasticBeanstalk
 env:
-  EB_PACKAGE_S3_BUCKET_NAME: "elasticbeanstalk-eu-west-2-467316362706"
-  EB_APPLICATION_NAME: "Python"
-  EB_ENVIRONMENT_NAME: "Python-env"
+  EB_PACKAGE_S3_BUCKET_NAME: "vlad-python"
+  EB_APPLICATION_NAME: "Python1"
+  EB_ENVIRONMENT_NAME: "Python1-env"
   DEPLOY_PACKAGE_NAME: "python_app_${{ github.sha }}.zip"
   AWS_REGION_NAME: "eu-west-2"
   AWS_ACCESS_KEY: "AKIAWZTRZZXJI73QLWVT"
