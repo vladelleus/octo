@@ -6,8 +6,8 @@ env:
   EB_ENVIRONMENT_NAME: "Python1-env"
   DEPLOY_PACKAGE_NAME: "python_app_${{ github.sha }}.zip"
   AWS_REGION_NAME: "eu-west-2"
-  AWS_ACCESS_KEY: "AKIAWZTRZZXJI73QLWVT"
-  AWS_SECRET_KEY: "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"
+  AWS_ACCESS_KEY: "${{ secrets.MY_AWS_ACCESS_KEY }}"
+  AWS_SECRET_KEY: "${{ secrets.MY_AWS_SECRET_KEY }}"
 on: 
   push:
     branches:
